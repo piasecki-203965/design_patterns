@@ -1,0 +1,4 @@
+Stworzyć nowy obiekt za pomocą wzorca projektowego Singleton. Należy zrobić to za pomocą inicjalizacji zachłannej
+albo leniwej (eager vs lazy). Oprócz tego należy również zabezpieczyć się przed możliwością kilkukrotnej inicjalizacji
+obiektu za pomocą wielu wątków. Przygotować jeden test potwierdzający, że mamy stworzoną jedną instancję tego
+samego obiektu.

@@ -1,0 +1,3 @@
+Klasa modelowa reprezentująca budynek ma kilka konstruktorów. Niestety aby stworzyć obiekt z parametrami które nas interesują
+jesteśmy zmuszeni tworzyć kolejne kombinacje konstruktorów. Rozwiązaniem tego problemu jest zastosowanie wzorca budowniczego,
+który pomoże nam za każdym razem zainicjalizować budynek z parametrami, które nas interesują.
