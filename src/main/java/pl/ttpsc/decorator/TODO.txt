@@ -1,0 +1,5 @@
+Załóżmy, że do napisania jest aplikacja obliczająca wagę samochodu. Użytkownik może wybierać typ samochodu,
+przykładowo: hatchback, sedan, combi, sportowe, terenowe, van.  Dla uproszczenia przyjmijmy, że każdy typ ma
+swoją ściśle określoną wagę. W kolejnym kroku użytkownik dobiera akcesoria, jakie chciałby zainstalować w posiadać
+w swoim pojeździe, przykładowo kamera cofania, napęd 4x4, asystent parkowania, automatyczny skrzynia biegów.
+Program ma na swoim wyjściu podawać całkowitą wagę auta wraz z wszystkimi wybranymi akcesoriami.

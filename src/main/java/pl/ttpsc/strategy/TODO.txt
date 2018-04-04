@@ -1,0 +1,1 @@
+Zaproponuj implementację z uzyciem wzorca strategii dla aplikacji wyszukującej dany element w kolekcji za pomocą algorytmów wyszukiwania binarnego i liniowego

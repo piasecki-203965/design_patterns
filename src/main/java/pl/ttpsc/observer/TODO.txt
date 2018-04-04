@@ -1,0 +1,4 @@
+Polska Agencja Prasowa często jako pierwsza informuje o wydarzeniach z Polski i ze świata. To z niej, osoby
+odpowiedzialne za aktualizację tzw. pasków w telewizjach informacyjnych typu TVP Info, TVN24 czy Polsat News,
+czerpią informację, która pojawia się w niedługim czasie na ekranach telewizorów. Zaimplementuj
+przedstawianą sytuację za pomocą wzorca Obserwatora.
