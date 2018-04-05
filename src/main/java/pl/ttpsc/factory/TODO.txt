@@ -1,0 +1,3 @@
+Obs³uga generowania raportów w wielu formatach (HTML, PDF, XLS, XML). Ka¿dy format posiada swoj¹ w³asn¹ fabrykê, 
+która tworzy elementy takie jak: nowa strona, tabela, a tabela komórki tabeli. Tak wiêc ka¿dy format zawiera rodzinê 
+zale¿nych od siebie elementów (nie mo¿na przecie¿ ³¹czyæ u¿ycia komórek w formacie XLS i PDF w raporcie HTML).
