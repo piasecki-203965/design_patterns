@@ -124,6 +124,27 @@ public class Building {
         this.commercialGroundFloorFlag = commercialGroundFloorFlag;
     }
 
+    public Building(BuildingBuilder buildingBuilder) {
+        this.id = buildingBuilder.getId();
+        this.streetName = buildingBuilder.getStreetName();
+        this.streetNumber = buildingBuilder.getStreetNumber();
+        this.zipCode = buildingBuilder.getZipCode();
+        this.buildingCompanyName = buildingBuilder.getBuildingCompanyName();
+        this.landlordName = buildingBuilder.getLandlordName();
+        this.constructionYear = buildingBuilder.getConstructionYear();
+        this.constructionEndYear = buildingBuilder.getConstructionEndYear();
+        this.flatsNumber = buildingBuilder.getFlatsNumber();
+        this.completeRentArea = buildingBuilder.getCompleteRentArea();
+        this.completeRentAreaUnit = buildingBuilder.getCompleteRentAreaUnit();
+        this.flatsDescription = buildingBuilder.getFlatsDescription();
+        this.flatsPrices = buildingBuilder.getFlatsPrices();
+        this.hasCarPark = buildingBuilder.isHasCarPark();
+        this.hasGarden = buildingBuilder.isHasGarden();
+        this.hasFence = buildingBuilder.isHasFence();
+        this.petFriendlyFlag = buildingBuilder.isPetFriendlyFlag();
+        this.commercialGroundFloorFlag = buildingBuilder.isCommercialGroundFloorFlag();
+    }
+
     public Long getId() {
         return id;
     }
