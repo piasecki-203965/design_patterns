@@ -6,7 +6,7 @@ public class AdapterWrapperTrial {
         MediaPlayer mp4MediaPlayer = new FormatAdapter(new Mp4Player());
         MediaPlayer vlcMediaPlayer = new FormatAdapter(new VlcPlayer());
         MediaPlayer mp3MediaPlayer = new Mp3Player();
-        
+
         mp4MediaPlayer.play("file.mp4");
         vlcMediaPlayer.play("file.vlc");
         mp3MediaPlayer.play("file.mp3");
