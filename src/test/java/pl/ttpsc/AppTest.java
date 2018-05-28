@@ -25,16 +25,15 @@ public class AppTest {
 
         int success = 0;
         int fail = 0;
-        for(int i = 0; i < 1000; i ++) {
+        for (int i = 0; i < 1000; i++) {
             ExecutorService service = Executors.newFixedThreadPool(2);
             service.submit(test1);
             service.submit(test2);
             service.shutdown();
             service.awaitTermination(1, TimeUnit.SECONDS);
-            if(config1.equals(config2)) {
+            if (config1.equals(config2)) {
                 success++;
-            }
-            else {
+            } else {
                 fail++;
             }
         }

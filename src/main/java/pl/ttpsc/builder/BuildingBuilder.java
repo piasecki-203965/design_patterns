@@ -23,9 +23,17 @@ public class BuildingBuilder {
     private boolean petFriendlyFlag;
     private boolean commercialGroundFloorFlag;
 
+    public Long getId() {
+        return id;
+    }
+
     public BuildingBuilder setId(Long id) {
         this.id = id;
         return this;
+    }
+
+    public String getStreetName() {
+        return streetName;
     }
 
     public BuildingBuilder setStreetName(String streetName) {
@@ -33,9 +41,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public int getStreetNumber() {
+        return streetNumber;
+    }
+
     public BuildingBuilder setStreetNumber(int streetNumber) {
         this.streetNumber = streetNumber;
         return this;
+    }
+
+    public String getZipCode() {
+        return zipCode;
     }
 
     public BuildingBuilder setZipCode(String zipCode) {
@@ -43,9 +59,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public String getBuildingCompanyName() {
+        return buildingCompanyName;
+    }
+
     public BuildingBuilder setBuildingCompanyName(String buildingCompanyName) {
         this.buildingCompanyName = buildingCompanyName;
         return this;
+    }
+
+    public String getLandlordName() {
+        return landlordName;
     }
 
     public BuildingBuilder setLandlordName(String landlordName) {
@@ -53,9 +77,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public Date getConstructionYear() {
+        return constructionYear;
+    }
+
     public BuildingBuilder setConstructionYear(Date constructionYear) {
         this.constructionYear = constructionYear;
         return this;
+    }
+
+    public Date getConstructionEndYear() {
+        return constructionEndYear;
     }
 
     public BuildingBuilder setConstructionEndYear(Date constructionEndYear) {
@@ -63,9 +95,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public long getFlatsNumber() {
+        return flatsNumber;
+    }
+
     public BuildingBuilder setFlatsNumber(long flatsNumber) {
         this.flatsNumber = flatsNumber;
         return this;
+    }
+
+    public long getCompleteRentArea() {
+        return completeRentArea;
     }
 
     public BuildingBuilder setCompleteRentArea(long completeRentArea) {
@@ -73,9 +113,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public String getCompleteRentAreaUnit() {
+        return completeRentAreaUnit;
+    }
+
     public BuildingBuilder setCompleteRentAreaUnit(String completeRentAreaUnit) {
         this.completeRentAreaUnit = completeRentAreaUnit;
         return this;
+    }
+
+    public Map<String, String> getFlatsDescription() {
+        return flatsDescription;
     }
 
     public BuildingBuilder setFlatsDescription(Map<String, String> flatsDescription) {
@@ -83,9 +131,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public Map<String, Long> getFlatsPrices() {
+        return flatsPrices;
+    }
+
     public BuildingBuilder setFlatsPrices(Map<String, Long> flatsPrices) {
         this.flatsPrices = flatsPrices;
         return this;
+    }
+
+    public boolean isHasCarPark() {
+        return hasCarPark;
     }
 
     public BuildingBuilder setHasCarPark(boolean hasCarPark) {
@@ -93,9 +149,17 @@ public class BuildingBuilder {
         return this;
     }
 
+    public boolean isHasGarden() {
+        return hasGarden;
+    }
+
     public BuildingBuilder setHasGarden(boolean hasGarden) {
         this.hasGarden = hasGarden;
         return this;
+    }
+
+    public boolean isHasFence() {
+        return hasFence;
     }
 
     public BuildingBuilder setHasFence(boolean hasFence) {
@@ -103,86 +167,22 @@ public class BuildingBuilder {
         return this;
     }
 
+    public boolean isPetFriendlyFlag() {
+        return petFriendlyFlag;
+    }
+
     public BuildingBuilder setPetFriendlyFlag(boolean petFriendlyFlag) {
         this.petFriendlyFlag = petFriendlyFlag;
         return this;
     }
 
+    public boolean isCommercialGroundFloorFlag() {
+        return commercialGroundFloorFlag;
+    }
+
     public BuildingBuilder setCommercialGroundFloorFlag(boolean commercialGroundFloorFlag) {
         this.commercialGroundFloorFlag = commercialGroundFloorFlag;
         return this;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getStreetName() {
-        return streetName;
-    }
-
-    public int getStreetNumber() {
-        return streetNumber;
-    }
-
-    public String getZipCode() {
-        return zipCode;
-    }
-
-    public String getBuildingCompanyName() {
-        return buildingCompanyName;
-    }
-
-    public String getLandlordName() {
-        return landlordName;
-    }
-
-    public Date getConstructionYear() {
-        return constructionYear;
-    }
-
-    public Date getConstructionEndYear() {
-        return constructionEndYear;
-    }
-
-    public long getFlatsNumber() {
-        return flatsNumber;
-    }
-
-    public long getCompleteRentArea() {
-        return completeRentArea;
-    }
-
-    public String getCompleteRentAreaUnit() {
-        return completeRentAreaUnit;
-    }
-
-    public Map<String, String> getFlatsDescription() {
-        return flatsDescription;
-    }
-
-    public Map<String, Long> getFlatsPrices() {
-        return flatsPrices;
-    }
-
-    public boolean isHasCarPark() {
-        return hasCarPark;
-    }
-
-    public boolean isHasGarden() {
-        return hasGarden;
-    }
-
-    public boolean isHasFence() {
-        return hasFence;
-    }
-
-    public boolean isPetFriendlyFlag() {
-        return petFriendlyFlag;
-    }
-
-    public boolean isCommercialGroundFloorFlag() {
-        return commercialGroundFloorFlag;
     }
 
     public Building createBuilding() {

@@ -1,5 +1,13 @@
 package pl.ttpsc.adapter;
 
+interface MediaPlayer {
+    void play(String filename);
+}
+
+interface MediaPackage {
+    void playFile(String filename);
+}
+
 public class AdapterWrapperTrial {
     public static void main(String args[]) {
 
@@ -13,18 +21,10 @@ public class AdapterWrapperTrial {
     }
 }
 
-interface MediaPlayer {
-    void play(String filename);
-}
-
 class Mp3Player implements MediaPlayer {
     public void play(String filename) {
         System.out.println("i am playing mp3 " + filename);
     }
-}
-
-interface MediaPackage {
-    void playFile(String filename);
 }
 
 class Mp4Player implements MediaPackage {
